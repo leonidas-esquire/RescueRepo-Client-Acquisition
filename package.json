@@ -1,21 +1,27 @@
 {
-  "name": "github-repo-architect---client-acquisition-system",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "rescuerepo-client",
+  "version": "1.0.0",
+  "description": "RescueRepo Client System with Webpack + React + TypeScript",
+  "main": "webpack.config.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react-dom": "^19.2.0",
-    "react": "^19.2.0"
+    "start:webpack": "webpack serve --mode development --open",
+    "build:webpack": "webpack --mode production"
   },
   "devDependencies": {
-    "@types/node": "^22.14.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "~5.8.2",
-    "vite": "^6.2.0"
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.4",
+    "path": "^0.12.7",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sass": "^1.93.3",
+    "sass-loader": "^16.0.6",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
   }
 }
