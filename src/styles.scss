@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f8fafc;
+  font-family: 'Inter', system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.app-header {
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(56, 189, 248, 0.25);
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+  color: #0f172a;
+}
+
+.app-header p {
+  font-size: 1rem;
+  color: #0f172a;
+  opacity: 0.9;
+}
+
+.app-main {
+  margin-top: 2rem;
+}
+
+.cta-button {
+  background: #38bdf8;
+  color: #0f172a;
+  font-size: 1.1rem;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #818cf8;
+  transform: translateY(-3px);
+}
