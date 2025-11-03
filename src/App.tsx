@@ -23,3 +23,14 @@ export default function App() {
     </div>
   );
 }
+
+import VersionFooter from "./components/VersionFooter";
+
+export default function App() {
+  return (
+    <div className="App">
+      {/* your existing app layout */}
+      <VersionFooter />
+    </div>
+  );
+}
