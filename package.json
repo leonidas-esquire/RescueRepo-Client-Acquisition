@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "start:webpack": "webpack serve --mode development --open",
-    "build:webpack": "webpack --mode production"
+    "build:webpack": "webpack --mode production",
+    "build": "webpack --mode production"
   },
   "devDependencies": {
     "@types/react": "^19.2.2",
