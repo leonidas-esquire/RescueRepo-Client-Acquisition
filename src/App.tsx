@@ -1,17 +1,19 @@
 import React from 'react';
-import './styles.scss';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import Footer from './components/Footer';
+import Dashboard from './components/Dashboard';
+import './styles/global.scss';
 
 export default function App() {
   return (
-    <div className="app-container">
-      <header className="app-header">
-        <h1>🚀 RescueRepo Client System</h1>
-        <p>Empowering developers to build polished GitHub client systems effortlessly.</p>
-      </header>
-
-      <main className="app-main">
-        <button className="cta-button">Get Started</button>
+    <>
+      <Header />
+      <Sidebar />
+      <main className="main">
+        <Dashboard />
       </main>
-    </div>
+      <Footer />
+    </>
   );
 }
